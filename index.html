@@ -3,11 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ryuunji</title>
+	<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/top.css"/>
 </head>
 <body>
 <div class="container">
 	<header class="header">
-		<div class="header_inner cf">
+		<div class="header_inner inner1080 cf">
 			<div class="header_left">
 				<h1 class="header-logo">龍雲寺</h1>
 				<div class="header-desc"></div>
@@ -43,19 +45,15 @@
 			<!--</div>-->
 		<!--</div>-->
 	<!--</div>-->
-	<div class="slide_wrap">
-		<div class="slide">
-			<div class="slide_inner">
-				<ul class="slide-area">
+	<div id="jsi-slidearea" class="slide_wrap">
+		<div class="slide bx-wrapper">
+			<div class="slide_inner bx-viewport">
+				<ul class="slide-area bxslider">
 					<li><a href="#"><img src="../img/slider1.jpg" alt=""></a></li>
 					<li><a href="#"><img src="../img/slider2.jpg" alt=""></a></li>
 					<li><a href="#"><img src="../img/slider3.jpg" alt=""></a></li>
 					<li><a href="#"><img src="../img/slider4.jpg" alt=""></a></li>
 				</ul>
-			</div>
-			<div class="slide-control">
-				<a class="bx-prev" href="javascript:void(0)">Prev</a>
-				<a class="bx-next" href="javascript:void(0)">Next</a>
 			</div>
 		</div>
 	</div>
@@ -77,5 +75,9 @@
 
 	</footer>
 </div>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.easings.min.js"></script>
+<script src="/js/jquery.bxslider.min.js"></script>
+<script src="/js/jquery.bxslider.top.ini.js"></script>
 </body>
 </html>
