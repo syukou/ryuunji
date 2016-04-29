@@ -3,7 +3,8 @@
 #jsi-slidearea {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 2em;
+	margin: 2em 0;
+	opacity: 0;
 }
 
 .bx-wrapper {

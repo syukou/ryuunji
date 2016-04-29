@@ -82,7 +82,7 @@ BASE STYLE
 -------------------------------------------------------------------------------*/
 /* font-family */
 html, input, select, textarea, table, th, td, li, a {
-	font-family: "Avenir Next", "Avenir", 'ƒqƒ‰ƒMƒmŠpƒS Pro', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'ƒƒCƒŠƒI', 'Meiryo', sans-serif;
+	font-family: "Avenir Next", "Avenir", 'ï¿½qï¿½ï¿½ï¿½Mï¿½mï¿½pï¿½S Pro', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½I', 'Meiryo', sans-serif;
 }
 
 /* font-style */
@@ -130,4 +130,39 @@ COMMON STYLE
 .inner1000 {
 	width: 1000px;
 	margin: 0 auto;
+}
+
+/*-------------------------------------------------------------------------------
+HEADER STYLE
+-------------------------------------------------------------------------------*/
+.header {
+	padding: 35px 0 20px;
+}
+
+.header_inner {
+	position: relative;
+}
+
+.header_left {
+	float: left;
+	position: absolute;
+	bottom: 0;
+}
+
+.header_left img {
+	width: auto;
+	height: 50px;
+}
+
+.header-logo {
+	float: left;
+}
+
+.header-desc {
+	float: left;
+	margin-left: 14px;
+}
+
+.header_right {
+	float: right;
 }
