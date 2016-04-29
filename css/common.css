@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*-------------------------------------------------------------------------------
+RESET
+-------------------------------------------------------------------------------*/
+body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure,
+h1, h2, h3, h4, h5, h6, form, select {
+	margin: 0;
+	padding: 0;
+}
+
+main, article, aside, figcaption, figure, picture, source,
+footer, header, nav, section, details, summary {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, th, em, strong {
+	font-weight: normal;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+svg,
+input,
+select,
+textarea,
+label {
+	vertical-align: middle;
+}
+
+*,
+*:before,
+*:after {
+	word-break: break-all;
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	color: #656565;
+	font-family: "Giacomo", sans-serif;
+}
+
+/* [IE8-] New Tag from HTML5 */
+main, article, aside, figcaption, figure,
+footer, header, nav, section, details, summary {
+	display: block;
+}
+
+address {
+	font-style: normal;
+}
+
+@media all and (orientation: landscape) {
+	body, html {
+		width: 100%;
+	}
+}
+
+/*-------------------------------------------------------------------------------
+BASE STYLE
+-------------------------------------------------------------------------------*/
+/* font-family */
+html, input, select, textarea, table, th, td, li, a {
+	font-family: "Avenir Next", "Avenir", 'ÉqÉâÉMÉmäpÉS Pro', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'ÉÅÉCÉäÉI', 'Meiryo', sans-serif;
+}
+
+/* font-style */
+html {
+	line-height: 1.5;
+	font-size: 12px;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* base font color */
+html, input, select, textarea {
+	color: #000000;
+}
+
+/* normalize size */
+input, select, textarea {
+	font-size: 100%;
+}
+
+/* normalize style & weight */
+strong, em, small {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.cf:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+img {
+	width: 100%;
+}
+
+/*-------------------------------------------------------------------------------
+COMMON STYLE
+-------------------------------------------------------------------------------*/
+.inner1080 {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.inner1000 {
+	width: 1000px;
+	margin: 0 auto;
+}
