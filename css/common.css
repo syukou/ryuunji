@@ -6,6 +6,7 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure,
 h1, h2, h3, h4, h5, h6, form, select {
 	margin: 0;
 	padding: 0;
+	-webkit-font-smoothing: antialiased;
 }
 
 main, article, aside, figcaption, figure, picture, source,
@@ -56,11 +57,6 @@ label {
 	-moz-box-sizing: border-box;
 }
 
-body {
-	color: #656565;
-	font-family: "Giacomo", sans-serif;
-}
-
 /* [IE8-] New Tag from HTML5 */
 main, article, aside, figcaption, figure,
 footer, header, nav, section, details, summary {
@@ -80,32 +76,19 @@ address {
 /*-------------------------------------------------------------------------------
 BASE STYLE
 -------------------------------------------------------------------------------*/
-/* font-family */
-html, input, select, textarea, table, th, td, li, a {
-	font-family: "Avenir Next", "Avenir", '�q���M�m�p�S Pro', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', '���C���I', 'Meiryo', sans-serif;
-}
-
-/* font-style */
 html {
-	line-height: 1.5;
-	font-size: 12px;
+	width: 100%;
+	font-size: 62.5%;
+	line-height: 1em;
+}
+
+body {
+	width: 100%;
+	font-family: "Giacomo", sans-serif;
+	font-size: 1.3em;
+	font-weight: 200;
+	color: #333;
 	-webkit-text-size-adjust: 100%;
-}
-
-/* base font color */
-html, input, select, textarea {
-	color: #000000;
-}
-
-/* normalize size */
-input, select, textarea {
-	font-size: 100%;
-}
-
-/* normalize style & weight */
-strong, em, small {
-	font-style: normal;
-	font-weight: normal;
 }
 
 .cf:after {
@@ -117,6 +100,16 @@ strong, em, small {
 
 img {
 	width: 100%;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #361f0a;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #f4ad16;
 }
 
 /*-------------------------------------------------------------------------------
@@ -145,8 +138,6 @@ HEADER STYLE
 
 .header_left {
 	float: left;
-	position: absolute;
-	bottom: 0;
 }
 
 .header_left img {
@@ -165,4 +156,25 @@ HEADER STYLE
 
 .header_right {
 	float: right;
+}
+
+/*-------------------------------------------------------------------------------
+Nav STYLE
+-------------------------------------------------------------------------------*/
+.nav_wrap {
+	font-family: serif;
+	letter-spacing: .05em;
+	margin: 10px auto;
+	overflow: hidden;
+	border-bottom: solid 1px #2a1907;
+}
+
+.topnav ul li {
+	float: left;
+	padding: 12px 0;
+	margin: 0 4% 0 0;
+}
+
+.topnav ul li a {
+	font-size: 1.1em;
 }
